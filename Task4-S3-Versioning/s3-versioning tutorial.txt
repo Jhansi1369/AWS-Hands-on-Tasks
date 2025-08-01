@@ -1,0 +1,29 @@
+How to Enable Versioning on an S3 Bucket
+🔹 Step 1: Go to Your Bucket
+Open AWS Console → Go to S3
+
+Click on your bucket -jhansi-newbucket
+
+🔹 Step 2: Enable Versioning
+Go to the Properties tab
+
+Scroll down to Bucket Versioning
+
+Click Edit
+
+Select Enable
+
+Click Save changes
+
+🧪 How It Works 
+1️⃣ Upload a file (e.g., report.txt)
+→ This is Version 1
+
+2️⃣ Upload the same file again with changes
+→ Now it becomes Version 2 of report.txt
+
+3️⃣ Go to the object → Click Versions tab
+→ You'll see both versions, with different Version IDs
+
+4️⃣ Delete the object
+→ It adds a delete marker — the object disappears, but you can restore it by deleting the marker
